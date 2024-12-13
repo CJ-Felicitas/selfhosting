@@ -28,6 +28,7 @@ if [[ ":$PATH:" != *":$HOME/.local/bin:"* ]]; then
     export PATH="$HOME/.local/bin:$PATH"
 fi
 
+# Reload bashrc to apply changes
+source ~/.bashrc
 # print if success and instruction if success
 echo "Installation complete. Run 'lazydocker' to start."
-echo "If 'lazydocker' is not recognized, reload your shell with 'source ~/.bashrc'."
